@@ -1,0 +1,23 @@
+{
+  "name": "pumpfun-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram trading bot for Pump.fun on Solana",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "axios": "^1.7.9",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
